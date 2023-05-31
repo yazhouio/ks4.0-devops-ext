@@ -4,9 +4,7 @@
   "private": true,
   "main": "index.js",
   "license": "MIT",
-  "workspaces": [
-    "extensions/*"
-  ],
+  "workspaces": ["extensions/*"],
   "scripts": {
     "dev:client": "ksc dev -u true",
     "dev:server": "ksc-server",
@@ -17,11 +15,7 @@
     "build:ext": "ksc build:ext",
     "create:ext": "ksc create:ext"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
@@ -53,11 +47,6 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/runtime": "^7.15.4",
-    "@kubed/components": "^0.0.67",
-    "@kubed/hooks": "^0.0.14",
-    "@kubed/icons": "^0.0.8",
-    "@kubed/stook": "^0.0.4",
-    "@kubed/stook-devtools": "^0.0.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "@tanstack/react-query": "^4.13.5",
     "@types/lodash": "^4.14.176",
@@ -142,11 +131,20 @@
     "webpack-merge": "^5.8.0",
     "webpack-merge-json-plugin": "^0.1.0",
     "webpackbar": "^5.0.0-3",
-    "yargs": "^17.0.1"
+    "yargs": "^17.0.1",
+    "@kubed/charts": "^0.0.9",
+    "@kubed/code-editor": "^0.0.16",
+    "@kubed/components": "^0.0.72",
+    "@kubed/diff-viewer": "^0.0.10",
+    "@kubed/hooks": "^0.0.14",
+    "@kubed/icons": "^0.0.9",
+    "@kubed/log-viewer": "^0.0.9",
+    "@kubed/stook": "^0.0.4",
+    "@kubed/stook-devtools": "^0.0.1"
   },
   "dependencies": {
-    "@ks-console/bootstrap": "^4.0.0-alpha.23",
+    "@ks-console/bootstrap": "^4.0.0-alpha.26",
     "@ks-console/server": "^4.0.0-alpha.16",
-    "@ks-console/shared": "4.0.0-alpha.16"
+    "@ks-console/shared": "4.0.0-alpha.20"
   }
 }

@@ -8,6 +8,7 @@ module.exports = {
     ],
     '@babel/preset-react',
   ],
+  sourceType: 'unambiguous',
   plugins: [
     '@babel/plugin-transform-runtime',
     'lodash',
