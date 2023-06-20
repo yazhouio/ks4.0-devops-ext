@@ -1,3 +1,3 @@
-FROM nginx:alpine
+FROM --platform=linux/amd64 nginx:alpine
 
 COPY dist /usr/share/nginx/html/dist/devops-frontend
