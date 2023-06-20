@@ -144,7 +144,7 @@
   },
   "dependencies": {
     "@ks-console/bootstrap": "^4.0.0-alpha.26",
-    "@ks-console/server": "^4.0.0-alpha.16",
+    "@ks-console/server": "^4.0.0-alpha.17",
     "@ks-console/shared": "4.0.0-alpha.20"
   }
 }
